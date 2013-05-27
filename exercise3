@@ -9,7 +9,7 @@ p{position:fixed; top:30px; left:600px; font-size:13px; font-family:Tahoma; }
 abc{color:blue;}
 .p1{margin-top:130px; margin-left:-250px; color:#2c286d; font-size:18px;}
 .class1{margin-top:100px; margin-left:300px; background-color:#ececec; width:300px; height:300px; padding-right:100px;  border:1px solid; direction:rtl;}
-.submit1{background-color:#dc2927; height:32px; width:130px; }
+input[type=submit]{background-color:red; color:white; height:32px; width:130px; text-align:center; font-size:14px; border:1px solid black;}
 .xy{border:2px solid red}
 .yz{position:fixed; top:43px; left:780px; font-size:13px;}
 textrea{direction:ltr;}
@@ -18,7 +18,7 @@ textrea{direction:ltr;}
 </head>
 
 <body>
-<img src="vinsol-logo.png">
+<img src="http://dl.dropboxusercontent.com/u/17934144/vtapp/vinsol-logo.png">
 <div class="xy"></div>
 <p>Email us at:<abc> sales@vinsol.com</abc></p> <div class="yz">Skype:<abc>Vinsol</abc></div>
 
@@ -71,11 +71,9 @@ textrea{direction:ltr;}
 <td>Address</td>
 </tr>
 
-<tr>
-<td></td>
-<td class="submit1"><input type="button" name="submit" value="submit details"></td>
-</tr>
+
 </table>
+<div class="submit1"><input type="submit" value="submit details"></div>
 
 </form>
 </div>
