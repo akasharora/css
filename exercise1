@@ -4,31 +4,33 @@
 <title>css exercise1</title>
 <style>
 
-ul{font-style:italic; background-color:#cfcfcf; padding-left:20px; padding-right:20px;  height:37px; width:600px; border-bottom:1px solid black; }
+ul{font-style:italic; background-color:#cfcfcf;  height:37px; padding:0px; margin:0px; width:600px; border-bottom:1px solid black; list-style:none; padding-left:0px; }
 
-ul li{display:block; position:relative; float:left; font-family:Georgia; font-size:18px; }
+ul li{display:block; position:relative; float:left; font-family:Georgia; font-size:18px; border-left:1px solid white }
 
-li ul{display:none; border-bottom:1px solid black;}
+li ul{display:none; }
 
 ul li a{ display: block;
   text-decoration:none;
   color:black;
  font-family:Georgia;
-  padding: 5px 15px 5px 15px;
-  margin-left:1px;
-border-left:1px solid #ffffff;
+  padding: 5px 15px 10px 15px;
+  margin-left:1px solid white;
+
+ white-space: nowrap
 }
-
 #menu{margin-left:-10px;}
-ul li a:hover{background-color:white;}
 
-li:hover ul{display:block; position:absolute; width:200px;  padding:10px; }
+ul li a:hover{background:white;  }
 
-li:hover li{float:none; font-size:14px; border:1px solid black}
 
-li:hover a{background:white; }
+li:hover ul{display:block; position:absolute; width:200px; padding:0px; }
 
-li:hover li a:hover{color:#bd0707; background-color:white; }
+li:hover li{float:none; font-size:14px; }
+
+li:hover a{background:white; border:1px solid black; }
+
+li:hover li a:hover{color:#bd0707; background-color:white;}
 
 
 
@@ -72,4 +74,5 @@ li:hover li a:hover{color:#bd0707; background-color:white; }
 </li>
 
 </ul>
+</body>
 </html>
