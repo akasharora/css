@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>css exercise1</title>
+<style>
+
+ul{font-style:italic; background-color:#cfcfcf; padding-left:20px; padding-right:20px;  height:37px; width:600px; border-bottom:1px solid black; }
+
+ul li{display:block; position:relative; float:left; font-family:Georgia; font-size:18px; }
+
+li ul{display:none; border-bottom:1px solid black;}
+
+ul li a{ display: block;
+  text-decoration:none;
+  color:black;
+ font-family:Georgia;
+  padding: 5px 15px 5px 15px;
+  margin-left:1px;
+border-left:1px solid #ffffff;
+}
+
+#menu{margin-left:-10px;}
+ul li a:hover{background-color:white;}
+
+li:hover ul{display:block; position:absolute; width:200px;  padding:10px; }
+
+li:hover li{float:none; font-size:14px; border:1px solid black}
+
+li:hover a{background:white; }
+
+li:hover li a:hover{color:#bd0707; background-color:white; }
+
+
+
+</style>
+</head>
+
+<body>
+<ul id="menu">
+<li><a href="">Home</a></li>
+
+<li><a href="#">About Us</a>
+<ul>
+<li><a href="#">link1</a></li>
+<li><a href="#">link2</a></li>
+<li><a href="#">link3</a></li>
+<li><a href="#">link4</a></li>
+</ul>
+</li>
+
+<li><a href="#">Our Services</a>
+<ul>
+<li><a href="#">link5</a></li>
+<li><a href="#">link6</a></li>
+<li><a href="#">link7</a></li>
+<li><a href="#">link8</a></li>
+</ul>
+</li>
+
+<li><a href="#">Our Portfolio</a>
+<ul>
+<li><a href="#">link9</a></li>
+<li><a href="#">link10</a></li>
+</ul>
+</li>
+
+<li><a href="#">Contact Us</a>
+<ul>
+<li><a href="#">Phone</a></li>
+<li><a href="#">Email</a></li>
+</ul>
+</li>
+
+</ul>
+</html>

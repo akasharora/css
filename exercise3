@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>css exercise3</title>
+<style>
+p{position:fixed; top:30px; left:600px; font-size:13px; font-family:Tahoma; }
+
+
+abc{color:blue;}
+.p1{margin-top:130px; margin-left:-250px; color:#2c286d; font-size:18px;}
+.class1{margin-top:100px; margin-left:300px; background-color:#ececec; width:300px; height:300px; padding-right:100px;  border:1px solid; direction:rtl;}
+.submit1{background-color:#dc2927; height:32px; width:130px; }
+.xy{border:2px solid red}
+.yz{position:fixed; top:43px; left:780px; font-size:13px;}
+textrea{direction:ltr;}
+</style>
+
+</head>
+
+<body>
+<img src="vinsol-logo.png">
+<div class="xy"></div>
+<p>Email us at:<abc> sales@vinsol.com</abc></p> <div class="yz">Skype:<abc>Vinsol</abc></div>
+
+
+<p class="p1">please fill the form below</p>
+<div class="class1" >
+<form>
+<table>
+<tr>
+<td><input type="text" name="name"></td>
+<td>First Name </td>
+
+</tr>
+
+<tr>
+<td><input type="text" name="name"></td>
+<td>Last Name </td>
+
+</tr>
+
+<tr>
+<td><input type="text" name="email"></td>
+<td>Email </td>
+
+</tr>
+
+<tr>
+<td><input type="password" name="pwd"></td>
+<td>Password </td>
+
+</tr>
+
+<tr>
+<td>male<input type="radio" name="sex">Female<input type="radio" name="sex"></td>
+<td>Gender</td></td>
+
+<tr>
+
+<td><select><option value="yy">yy</option><option value="1">1</option><option value="2">2</option><option value="3">3</option><option value="4">4</option><option value="5">5</option><option value="6">6</option><option value="7">7</option><option value="8">9</option><option value="10">10</option><option value="11">11</option><option value="12">12</option></select>
+
+<select><option value="mm">mm</option><option value="1">1</option><option value="2">2</option><option value="3">3</option><option value="4">4</option><option value="5">5</option><option value="6">6</option><option value="7">7</option><option value="8">9</option><option value="10">10</option><option value="11">11</option><option value="12">12</option></select>
+
+<select><option value="dd">dd</option><option value="1">1</option><option value="2">2</option><option value="3">3</option><option value="4">4</option><option value="5">5</option><option value="6">6</option><option value="7">7</option><option value="8">9</option><option value="10">10</option><option value="11">11</option><option value="12">12</option></select>
+</td>
+<td>DOB</td>
+</tr>
+
+<tr>
+<td><textarea rows="4" cols="17"></textarea></td>
+<td>Address</td>
+</tr>
+
+<tr>
+<td></td>
+<td class="submit1"><input type="button" name="submit" value="submit details"></td>
+</tr>
+</table>
+
+</form>
+</div>
+</body>
+</html>

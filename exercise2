@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>css exercise2</title>
+<style>
+
+.class1{height:100px; width:1000px; background-color:#b2e7ff; margin-left:-10px; margin-top:-10px; font-size:24px; text-align:center; font-family:tahoma; padding-top:25px; border-bottom:2px solid #0ab1ff; border-color:#0ab1ff;}
+
+a{color:white; font-size:14px;}
+
+.class2{height:375px; width:220px; margin-left:-10px; background-color:#0ab1ff; padding-top:150px; padding-bottom:25px; padding-left:20px; padding-right:10px; font-size:12px; float:left;}
+
+p{font-size:14px; color:#802525;}
+
+.class3{height:530px; width:710px; background-color:#ededed; font-size:24px;float:left;  padding-top:20px; padding-left:20px; padding-right:20px;}
+
+.class4{height:80px; padding-top:20px; width:1000px; background-color:#3cff78; text-align:center; bottom-border:2px; float:left; margin-left:-10px; font-size:24px;}
+
+</style>
+</head>
+<body>
+<div class="class1">
+Wikipedia,the free encyclopedia
+</div>
+
+<div class="class2">
+
+<a href="http://www.google.com">Google</a><br>
+<a href="http://www.yahoo.com">Yahoo</a><br>
+<a href="http://www.Hotmail.com">Hotmail</a><br><br><br><br>
+The May Revolution was a week-long series of events that took place from May 18 to 25, 1810, in Buenos Aires, capital of the Viceroyalty of the Río de la Plata. The May Revolution was a direct reaction to Spain's Peninsular War. In 1808, King Ferdinand VII of Spain abdicated in favor of Napoleon, who granted the throne to his brother, Joseph Bonaparte. To maintain a sense of continuity, Cisneros was initially appointed president of the Junta. This caused popular unrest, so he resigned under pressure on May 25. The newly formed government, the Primera Junta, included only representatives from Buenos Aires and invited other cities of the Viceroyalty to send delegates
+</div>
+
+<div class="class3">
+<br>May 25: First Patriotic Government in Argentina (1810); Independence Day in Jordan (1946); Towel Day<br>
+<p>1895 – The Republic of Formosa was proclaimed in Taiwan, declaring independence from Qing China.
+1914 – The British parliament passed the Third Home Rule Act, establishing a devolved government in Ireland.
+1936 – Employees of the Remington Rand company began an 11-month strike action, during which time the company executives developed the notorious "Mohawk Valley formula" to intimidate the strikers.
+1955 – Englishmen Joe Brown and George Band became the first to climb Kangchenjunga, the third-highest mountain in the world, but stopped short of the summit as per a promise given to the Maharaja of Sikkim that the top would remain inviolate.
+1961 – During a speech to a joint session of the United States Congress, U.S. President John F. Kennedy announced his support for the Apollo space program (insignia pictured), with "the goal, before this decade is out, of landing a man on the Moon and returning him safely to the Earth. Rafael Correa is sworn in as President of Ecuador for an unprecedented third term. (BBC)
+President of Uganda Yoweri Museveni removes Aronda Nyakairima as head of the military and names him as Minister of the Interior. (Reuters)
+Sport
+In association football, Gibraltar is accepted as a full UEFA member at the organization's XXVIII congress. (Panorama)
+In cycling, 2007 Giro d'Italia winner Danilo Di Luca of Italy tests positive for Erythropoietin (EPO). (Cycling Weekly)<br>
+Prime Minister elect of Iceland, Sigmundur Davíð Gunnlaugsson, declares that a January decision to freeze European Union membership talks will be extended indefinitely. (Bloomberg)
+North Korean leader Kim Jong-un dispatches a special envoy to the People's Republic of China amid signs of strained relations. (New York Times)Chinua Achebe's body is flown into Lagos to be greeted by a funeral processional. His remains await burial in Ogidi, the author's hometown. (AllAfrica)
+Gerbrand Bakker wins the Independent Foreign Fiction Prize for translation. (The Guardian)
+Iain Banks posts an update on his cancer battle for the first time since announcing his impending death</p>
+</div>
+
+<div class="class4">
+The above information is collected from wikipedia pages
+</div>
+</body>
+</html>
