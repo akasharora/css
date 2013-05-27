@@ -5,7 +5,8 @@
 <style>
 p{position:fixed; top:30px; left:600px; font-size:13px; font-family:Tahoma; }
 
-
+input[type=text]{direction:ltr;}
+textarea{direction:ltr;}
 abc{color:blue;}
 .p1{margin-top:130px; margin-left:-250px; color:#2c286d; font-size:18px;}
 .class1{margin-top:100px; margin-left:300px; background-color:#ececec; width:300px; height:300px; padding-right:100px;  border:1px solid; direction:rtl;}
