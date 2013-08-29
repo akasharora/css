@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<style>
+			#outer_list {
+				height: 20px;
+				width: 450px;
+				padding: 0px;
+				margin: 0px;
+			}
+			A {
+				text-decoration: none;
+				color: black;
+			}
+			ul li ul {
+				display: none;
+			}
+			#outer_list li {
+				background-color: orange;
+				display: inline-block;
+				font-size: 20px;
+				float: left;
+				margin-left: 2px;
+			}
+			#outer_list ul li {
+				display: block;
+				height: 25px;
+				background-color: white;
+				border: 1px solid;
+				width: 150px;
+				float: none;
+			}
+			ul li:hover ul{
+				display: block;
+				position: absolute;
+				margin-left: -40px;
+			}
+			li ul li a:hover {
+				color:green;
+			}
+		</style>
+	</head>
+	<body>
+		<ul id = "outer_list">
+			<li><a href = "#"">Home</a></li>
+			<li><a href = "#"">About Us</a>
+				<ul>
+					<li><a href = "#">Link1</a></li>
+					<li><a href = "#">Link2</a></li>
+				</ul>	
+			</li>
+			<li><a href = "#"">Our Services</a>
+				<ul>
+					<li><a href = "#">Link3</a></li>
+					<li><a href = "#">Link4</a></li>
+				</ul>	
+			</li>
+			<li><a href = "#">Portfolio</a>
+				<ul>
+					<li><a href = "#">Link5</a></li>
+					<li><a href = "#">Link6</a></li>
+				</ul>	
+			</li>
+			<li><a href = "#">Contact Us</a>
+				<ul>
+					<li><a href = "#">Link7</a></li>
+					<li><a href = "#">Link8</a></li>
+				</ul>	
+			</li>
+		</ul>
+	</body>
+</html>			
