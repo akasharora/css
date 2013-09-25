@@ -1,0 +1,136 @@
+.config .item {
+	width: 200px;
+	height: 240px;
+	float: left;
+	text-align: center;
+	margin: 40px 40px 0px 0;
+}
+
+.entry p {
+	margin-bottom: 20px;
+	text-align: justify;
+}
+
+#divisions p {display: none;}
+#show_hide{
+	display: block;
+	background: transparent;
+	height: 0px;
+	width: 100%;
+	float: left;
+	transition: height 0.2s;
+	-webkit-transition: height 0.2s; 
+	overflow: hidden;
+
+}
+
+#show_hide img{
+    height: 20px;
+	width:20px;
+	margin-top: 0px;
+	margin-left: -18px;
+}
+#content1 {
+	color: black;
+	float: left;
+	margin-left: 0px;
+	width: 900px;
+	height:90%;
+	padding: 20px;
+	transition: height .2s;
+	text-align: justify;
+	background:#eee url(images/diamond_upholstery.png) repeat;
+}
+#divisions img:hover {
+	cursor: pointer;
+}
+
+.entry ul {
+	list-style-type: none;
+	text-align: center;
+	border: 1px solid #000;
+	border-width: 1px 0;
+	margin: 0px 0px;
+	padding-left: 0px;
+	padding-bottom: 3px;
+}
+.entry ul li a {
+	text-align: center;
+	padding: 10px 15px;
+	display: block;
+	text-transform: uppercase;
+	font: normal 11px 'nexa_boldregular', Arial, Helvetica, sans-serif;
+}
+.tax ul li a {
+	font: normal 11px 'nexa_boldregular', Arial, Helvetica, sans-serif;
+}
+.tax ul li {
+	min-width: 42px;
+}
+#divisions {
+	min-height: 780px;
+}
+#arrow_image {
+	height: 40px;
+	width: 200px;
+}
+#arrow_image #arrow{
+	height: 40px;
+	width: 40px;
+	cursor: default;
+	margin-top: 10px;
+}
+#click_here {
+	font: bold 11px Arial;
+    text-decoration: none;
+    background-color: #EEEEEE;
+    color: #333333;
+    padding: 2px 6px 2px 6px;
+    border-top: 1px solid #CCCCCC;
+    border-right: 1px solid #333333;
+    border-bottom: 1px solid #333333;
+    border-left: 1px solid #CCCCCC;
+}
+#careers a:hover {
+	color: white;
+}
+#hidden_page2, #hidden_page1, #hidden_page-3, #hidden_page4 {
+	height: 100px !important;
+}
+.overlay {
+	margin-top: 15px;
+	margin-left: 20px;
+}
+#featured .oneColumn #firstTitle {
+	font: normal 100px 'league_gothic', Arial, Helvetica, sans-serif;
+	margin-bottom: 0px;
+	line-height: 90px;
+}
+#featured .oneColumn #secondTitle {
+	font: normal 45px 'infinity', Arial, Helvetica, sans-serif;
+	line-height: 60px;;
+}
+#our-divisions .wrapper {
+	margin-top: -20px;
+}
+#divisions {
+	margin-top: -40px;
+}
+#divisions .config {
+	margin-bottom: -80px;
+}
+#firstTitle {
+	margin-top: 70px;
+}
+#contact {
+	margin-top: -150px;
+}
+#contact .wrapper {
+	margin-top: -25px;
+}
+#careers a:hover {
+	cursor: pointer;
+}
+#careers h1 {
+	margin-top: -25px;
+}
